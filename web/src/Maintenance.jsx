@@ -50,18 +50,18 @@ export default function Maintenance() {
         <motion.div variants={itemVariants} className="flex justify-center mb-6 sm:mb-8">
           <div className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-yellow-400 border-[3px] sm:border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] sm:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] sm:hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-1 hover:translate-y-1 transition-all">
             <Construction className="w-4 sm:w-5 h-4 sm:h-5" />
-            <span className="text-xs sm:text-sm font-black uppercase tracking-wider">AgentiC A FOR BUSINESSES</span>
+            <span className="text-xs sm:text-sm font-black uppercase tracking-wider">RealSearch and Partners LLC</span>
           </div>
         </motion.div>
 
         {/* Main heading */}
         <motion.div variants={itemVariants} className="text-center mb-8 sm:mb-12">
           <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black mb-4 sm:mb-6 text-black leading-none uppercase tracking-tight px-2">
-            RealSearch Corp is the right way..<br />Alone.
+            Great companies<br />never stand still.
           </h1>
           <div className="max-w-4xl mx-auto bg-white border-[3px] sm:border-4 border-black p-4 sm:p-6 md:p-8 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] sm:shadow-[12px_12px_0px_0px_rgba(0,0,0,1)]">
             <p className="text-base sm:text-xl md:text-2xl font-bold text-black leading-relaxed">
-              After <span className="bg-cyan-400 px-1 sm:px-2 border-2 border-black">{yearCount}+ years</span> of building, we enable and scale businesses with agentic AI — automation, insights, and growth.
+              After <span className="bg-cyan-400 px-1 sm:px-2 border-2 border-black">{yearCount}+ years</span> of innovation and partnerships that shaped industries, we're redesigning our platform to reflect the scale of what's next.
             </p>
           </div>
         </motion.div>
